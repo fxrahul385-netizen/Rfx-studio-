@@ -1,4 +1,5 @@
-# Rfx studio
+# Rfx studio 
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -56,7 +57,7 @@ nav a:hover{
   padding:80px 20px;
 }
 
-/* PROFILE IMAGE */
+/* PROFILE IMAGE (FINAL FIXED) */
 .profile-pic{
   width:140px;
   height:140px;
@@ -65,11 +66,6 @@ nav a:hover{
   object-position:center;
   border:3px solid #c084fc;
   box-shadow:0 0 30px #a855f7;
-  transition:0.3s;
-}
-
-.profile-pic:hover{
-  transform:scale(1.05);
 }
 
 /* TEXT */
@@ -84,7 +80,7 @@ h1{
 }
 
 .desc{
-  max-width:500px;
+  max-width:550px;
   margin:auto;
   color:#bbb;
 }
@@ -97,6 +93,13 @@ h1{
   background:rgba(255,255,255,0.05);
   backdrop-filter:blur(12px);
   box-shadow:0 0 20px rgba(168,85,247,0.2);
+}
+
+/* LIST */
+ul{
+  margin-top:10px;
+  padding-left:20px;
+  color:#ccc;
 }
 
 /* SKILLS */
@@ -156,6 +159,7 @@ h1{
   <nav>
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
   </nav>
 </header>
@@ -163,14 +167,15 @@ h1{
 <!-- HERO -->
 <section class="hero reveal">
 
+  <!-- PROFILE PHOTO -->
   <img src="rfx-logo.jpg" class="profile-pic">
 
   <h1>RAHUL</h1>
   <p class="tag">🎬 Video Editor | Motion Designer</p>
 
   <p class="desc">
-    Focused and creative video editor with 2+ years of experience in cinematic edits,
-    reels, motion graphics and storytelling.
+    Focused and creative student with 2+ years of hands-on video editing experience.
+    Skilled in cinematic edits, reels, motion graphics, and storytelling.
   </p>
 
 </section>
@@ -181,27 +186,72 @@ h1{
   <p>📍 Bengaluru, India</p>
   <p>📞 9900809042</p>
   <p>✉️ rahulxeditzrahulxeditz@gmail.com</p>
+
+  <h3 style="margin-top:15px;">Education</h3>
+  <p>2nd PUC (Currently Pursuing)</p>
+
+  <h3 style="margin-top:15px;">Objective</h3>
+  <p>
+    Looking to apply strong editing, motion graphics, and storytelling skills
+    in freelance or part-time opportunities.
+  </p>
 </section>
 
 <!-- SKILLS -->
 <section id="skills" class="card reveal">
+
   <h2>Skills</h2>
 
   <div class="skill">
     <p>Video Editing</p>
-    <div class="bar"><span data-width="90%"></span></div>
+    <div class="bar"><span data-width="95%"></span></div>
   </div>
 
   <div class="skill">
     <p>Motion Graphics</p>
-    <div class="bar"><span data-width="85%"></span></div>
+    <div class="bar"><span data-width="90%"></span></div>
   </div>
 
   <div class="skill">
     <p>Color Grading</p>
-    <div class="bar"><span data-width="80%"></span></div>
+    <div class="bar"><span data-width="85%"></span></div>
   </div>
 
+  <div class="skill">
+    <p>Photography</p>
+    <div class="bar"><span data-width="70%"></span></div>
+  </div>
+
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="card reveal">
+  <h2>Projects</h2>
+  <ul>
+    <li>Cinematic Instagram Reels</li>
+    <li>Podcast Editing</li>
+    <li>Creative Typography Edits</li>
+  </ul>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="card reveal">
+  <h2>Experience</h2>
+  <p>Freelance Video Editor — 2 Years</p>
+  <ul>
+    <li>Cinematic reels editing</li>
+    <li>High-retention content</li>
+    <li>Smooth transitions & motion blur</li>
+  </ul>
+</section>
+
+<!-- TOOLS -->
+<section class="card reveal">
+  <h2>Tools & Software</h2>
+  <ul>
+    <li>Alight Motion (2+ years)</li>
+    <li>Node Video (2+ years)</li>
+  </ul>
 </section>
 
 <!-- CONTACT -->
